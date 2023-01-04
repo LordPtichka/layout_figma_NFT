@@ -1,0 +1,43 @@
+.nav_wrap {
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+.navbar {
+    max-width: var(--container-max-width);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* background: #e91515; */
+}
+.nav_block_logo {
+    display: flex;
+    align-items: center;
+}
+.nav_logo {
+}
+.nav_logo_text {
+    font-weight: 500;
+    font-size: 25px;
+    color: #f8f6fa;
+    margin-left: 15px;
+    font-weight: 500;
+}
+/* ======> nav link <========> nav link <======= */
+.nav_block_link {
+    display: flex;
+    align-items: center;
+}
+.wrap_nav_link {
+}
+.nav_link {
+    font-size: 16px;
+    color: #f8f6fa;
+    opacity: 60%;
+    margin-right: 40px;
+}
+.nav_link.active {
+    opacity: 100%;
+}
+/* ============================================= */
+/* ============================================= */

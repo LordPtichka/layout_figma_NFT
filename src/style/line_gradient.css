@@ -1,0 +1,56 @@
+.line_gradient_one {
+    margin-top: 22px;
+    background: linear-gradient(89.96deg, #cb47a080 0.02%, #6947cb80 49.47%, #00ff8580 99.97%);
+}
+.line_gradient_filter {
+    background: rgba(213, 236, 255, 0.3);
+    backdrop-filter: blur(6px);
+}
+.line_wrap {
+    max-width: var(--container-max-width);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.line_block {
+    margin: 60px 0;
+}
+.line_block_title {
+    font-weight: 500;
+    font-size: 61px;
+    line-height: 120%;
+}
+.line_block_hint {
+    font-size: 25px;
+    line-height: 150%;
+    opacity: 70%;
+}
+.section_partner {
+    height: 238px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partner_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 0 126px;
+}
+.img_partner {
+    height: 56px;
+    display: flex;
+}
+
+.img_partner:nth-child(1) {
+    align-items: flex-start;
+}
+.img_partner:nth-child(2) {
+    align-items: flex-end;
+}
+.img_partner:nth-child(3) {
+    align-items: center;
+}
+.img_partner:nth-child(4) {
+    align-items: flex-start;
+}

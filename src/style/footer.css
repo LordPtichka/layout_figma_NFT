@@ -1,0 +1,13 @@
+.footer_link_wrap {
+    display: flex;
+    height: 106px;
+    align-items: center;
+    justify-content: center;
+    gap: 0 81px;
+}
+
+.wrap_footer_link {
+}
+.footer_link {
+    font-weight: 500;
+}

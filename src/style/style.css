@@ -1,0 +1,148 @@
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+
+* {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    color: #f8f6fa;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+:root {
+    --container-max-width: 1080px;
+}
+
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+.text_gradient {
+    background-image: linear-gradient(180deg, #0becdf 44%, #0ad17c 93%); /*сам градиентный цвет */
+    -webkit-background-clip: text;
+    color: transparent; /* убирает цвет(вырезает) текста для просвечивания градиентного фона*/
+}
+
+.text_center {
+    text-align: center;
+}
+.title_product.title_49,
+.title_product.text_gradient {
+    font-size: 49px;
+}
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+main {
+    /* min-height: 1000vh; */
+    background: url(../image/background/background.png) no-repeat top;
+    background-size: cover;
+}
+
+section {
+    max-width: var(--container-max-width);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.btn_background {
+    width: 160px;
+    height: 56px;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(97.62deg, #eb11aa -15.99%, #2e81e2 104.3%);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 100ms;
+}
+.btn_text {
+    font-size: 16px;
+    color: #f8f6fa;
+}
+.btn_background:hover {
+    opacity: 90%;
+    transition: 100ms;
+}
+/* ================= */
+.btn_gradient_wrap {
+    width: 160px;
+    height: 56px;
+    margin-right: 24px;
+    padding: 2px;
+    border-radius: 2px;
+    background: linear-gradient(97.62deg, #eb11aa -15.99%, #2e81e2 104.3%);
+    cursor: pointer;
+    transition: 100ms;
+}
+.btn_grad_value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(45deg, #16112f, #1c1435);
+    border-radius: 2px;
+}
+
+.btn_gradient_wrap:hover {
+    opacity: 85%;
+    transition: 100ms;
+}
+/* ================= */
+.btn_transparent {
+    width: 163px;
+    height: 56px;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2e2f404d;
+    backdrop-filter: blur(2px);
+    border-radius: 2px;
+}
+
+/* ================== */
+.btn_group_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 59px;
+    margin-bottom: 25px;
+}
+/* ================== */
+.size_05 {
+    width: 71px;
+    height: 51px;
+    margin: 0;
+}
+
+.margin_bottom_100 {
+    margin-bottom: 200px;
+}
+/* =============== */
+.el_centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.el_colum {
+    flex-direction: column;
+}
+.marginY {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.bg_circle {
+    min-height: 400px;
+    background: url(../image/background/background_circle.svg) center no-repeat;
+}

@@ -1,0 +1,32 @@
+.section_best_product {
+    max-width: var(--container-max-width);
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+}
+.block_left {
+}
+.block_img_tile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 27px 23px;
+}
+.img_tile {
+}
+.section_best_product .block_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 117px;
+}
+.block_info_best_product {
+}
+.section_best_product .title_product {
+    font-size: 49px;
+}
+.section_best_product .block_text {
+    margin-top: 25px;
+}
+.section_best_product .btn_background {
+    margin-top: 35px;
+}
